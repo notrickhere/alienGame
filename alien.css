@@ -1,0 +1,39 @@
+body{
+    margin-top: 50px;
+    padding: 0%;
+}
+.board{
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0px;
+
+    height: 80vh;
+    width: auto;
+}
+.playerSide{
+    border: solid black;
+    height: auto;
+    width: 30vw;
+}
+.spaceInTheMiddle{
+    border: solid black;
+    height: auto;
+    width: 40vw;
+}
+.alienSide{
+    border: solid black;
+    height: auto;
+    width: 30vw;
+}
+.attackButtons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.singleAlien{
+    border: solid blue;
+    height: 20px;
+    border-radius: 50%;
+}
